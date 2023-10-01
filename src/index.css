@@ -2,15 +2,19 @@
   margin:0px;
 }
 header{
-  background-color: rgb(210, 210, 66);
+  background-color: rgb(43, 163, 87);
   width:100%;
   height: 80px;
   display:flex;
+  position: relative;
 }
 header h1{
+  position: absolute;
   font-family:'Times New Roman', Times, serif;
-  margin-left: 20px;
-  margin-top: 15px;
+  left:35px;
+  top: 15px;
+  color: antiquewhite;
+  font-size: 40px;
 }
 footer{
   position: absolute;
@@ -21,4 +25,18 @@ footer{
 footer h3{
   color: rgb(106, 104, 104);
   padding-bottom: 3px;
+}
+.Notes{
+  box-shadow: 2px 5px 5px rgb(234, 235, 149);
+  padding: 10px;
+  margin: 25px;
+  width: 200px;
+}
+.Notes h1{
+  font-size: 25px;
+}
+
+.Notes p{
+  font-size: 14px;
+  font-family:serif;
 }
