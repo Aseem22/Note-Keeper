@@ -1,6 +1,9 @@
 * {
-  margin:0px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
+
 header{
   background-color: rgb(43, 163, 87);
   width:100%;
@@ -26,17 +29,19 @@ footer h3{
   color: rgb(106, 104, 104);
   padding-bottom: 3px;
 }
-.Notes{
-  box-shadow: 2px 5px 5px rgb(234, 235, 149);
+.notes{
+  box-shadow: 2px 5px 5px rgb(178, 179, 177);
   padding: 10px;
   margin: 25px;
   width: 200px;
+  background-color: aliceblue;
+  float: left;
 }
-.Notes h1{
+.notes h1{
   font-size: 25px;
 }
 
-.Notes p{
+.notes p{
   font-size: 14px;
   font-family:serif;
 }
